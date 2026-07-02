@@ -1,0 +1,15 @@
+.resume-window{
+    overflow: hidden;
+    height: 100%;
+    padding-bottom: 5rem;
+
+
+    embed {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        scrollbar-width: thin;
+        scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+        background-color: transparent !important;
+    }
+}

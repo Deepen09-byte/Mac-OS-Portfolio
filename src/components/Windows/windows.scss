@@ -1,0 +1,59 @@
+.window {
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  border-radius: 0.75rem;
+  overflow: hidden;
+  // padding-bottom: 5rem;
+
+  .main-content {
+    height: 95%;
+    padding-bottom: 5rem;
+    overflow: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+  }
+
+  .nav {
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    padding: 0.2rem;
+    padding-left: 0.3rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    gap: 0.5rem;
+
+    .title {
+      margin-left: 0.5rem;
+      p {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        color: #fff;
+        font-size: 0.8rem;
+        margin: 0;
+      }
+    }
+
+    .dots {
+      display: flex;
+      gap: 0.35rem;
+
+      .dot {
+        width: 0.75rem;
+        height: 0.75rem;
+        border-radius: 50%;
+      }
+
+      .red {
+        cursor: pointer;
+        background-color: #ff605c;
+      }
+
+      .yellow {
+        background-color: #ffbd44;
+      }
+
+      .green {
+        background-color: #00ca56;
+      }
+    }
+  }
+}

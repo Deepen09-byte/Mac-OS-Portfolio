@@ -1,0 +1,13 @@
+.cli-window{
+    height: 95%;
+    overflow: auto;
+        scrollbar-width: thin;
+        scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+
+    div[name="react-console-emulator"] {
+        background-color: transparent !important;
+        overflow: scroll;
+        scrollbar-width: thin;
+        scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+    }
+}
